@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    padding:0;
+}
+.container{
+    height:100vh;
+    background:#333;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.container #qrOutput{
+    flex:1;
+ 
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.container .forms{
+    flex:1;
+    max-width:80%;
+    display:flex;
+    flex-direction:column;
+}
+.container .forms input{
+    margin-bottom:10px;
+    outline:none;
+    border:solid 2px red;
+    border-radius:15px 5px;
+}
+.container .forms #contentText{
+    padding: 10px 20px;
+}
+.container .forms #image-size{
+    padding:10px 20px;
+}
+.container .forms #generateCode{
+    padding:10px 20px;
+    outline:none;
+    border:solid 1px red;
+    color:white;
+    background:none;
+    font-size:0.9rem;
+    border-radius:15px;
+    transition:all .3s ease;
+}
+.container .forms #generateCode:hover{
+    background:red;
+}
